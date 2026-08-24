@@ -14,7 +14,7 @@ O sistema permite cadastrar laboratórios, listar os laboratórios cadastrados, 
 * Hibernate
 * H2 Database
 * Bootstrap 5
-* Apache Tomcat 11
+* Tomcat 11
 * Maven
 
 ## Estrutura do projeto
@@ -25,7 +25,7 @@ O projeto foi organizado utilizando uma arquitetura simples:
 JPS -> Servlet -> DAO -> JPA -> H2
 ```
 
-Os JSPs são responsáveis pelas páginas do sistema, os Servlets recebem as requisições, os DAOs fazem o acesso aos dados e o Hibernate realiza a persistência no banco H2.
+Os JSP são responsáveis pelas páginas do sistema, os Servlets recebem as requisições, os DAO fazem o acesso aos dados e o Hibernate realiza a persistência no banco H2
 
 ## Funcionalidades
 
@@ -34,7 +34,7 @@ Os JSPs são responsáveis pelas páginas do sistema, os Servlets recebem as req
 * Cadastro de equipamentos
 * Listagem de equipamentos
 * Associação de equipamentos com laboratórios
-* Seleção dinâmica de laboratório no cadastro de equipamentos
+* Dinâmico
 
 ## Como executar
 
@@ -66,7 +66,3 @@ jdbc:h2:mem:inventorydb;DB_CLOSE_DELAY=-1
 ```
 
 Os dados são utilizados durante a execução da aplicação.
-
-## Autor
-
-Mateus
